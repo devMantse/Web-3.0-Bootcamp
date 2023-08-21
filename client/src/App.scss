@@ -1,10 +1,10 @@
 body {
   font-family: "Muli", sans-serif;
-  font-weight: 300;  
-  background-image: url('/public/background.jpg');
+  font-weight: 300;
+  background-color: #E2E8F0;
   background-position: center;
   padding: 40px;
- 
+
 }
 
 label {
@@ -23,16 +23,7 @@ label {
   height: 100%;
   margin-top: 5rem;
   position: relative;
-  
-}
-.overlay {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  opacity: 80%;
-  position: absolute;
-  top: 0;
-  left: 0;
+
 }
 
 .transaction {
@@ -46,7 +37,6 @@ label {
   margin: 0 20px;
   background-color: #fff;
   border: 1px solid #cbd5e0;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
   border-radius: 0.375rem;
   padding: 40px;
 
@@ -81,7 +71,7 @@ input {
   border: none;
   margin: 5rem auto ;
   width: 50%;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+
   &:hover {
     cursor: pointer;
   }
@@ -91,7 +81,7 @@ input {
   display: flex;
   flex-direction: column;
   width: 50%;
-  // justify-content: space-between;
+
 
   .balance {
     text-transform: uppercase;

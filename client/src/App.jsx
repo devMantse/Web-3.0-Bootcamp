@@ -1,8 +1,9 @@
-import Wallet from './Wallet';
 import './App.scss';
-import { useState } from 'react';
+
 import Receipient from './Receipient';
 import Transfer from './Transfer';
+import Wallet from './Wallet';
+import { useState } from 'react';
 
 function App() {
   const [balance, setBalance] = useState(0);
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="overlay" />
+
       <div className="app">
         <div className="transaction">
           <Wallet
